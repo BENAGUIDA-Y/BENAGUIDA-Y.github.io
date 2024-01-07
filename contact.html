@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio </title>
+  </head>
+  <body>
+    <!-- Nav_Bar -->
+
+    <header>
+      <div class="logo">
+        <img src="images/Header-Logo.svg" alt="Logo">
+        <!-- <span class="name">Portfolio</span> -->
+      </div>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="index.html#about-section" class="nav__link">About</a></li>
+          <li class="nav__item">
+            <a href="index.html#skills-section" class="nav__link">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#projects-section" class="nav__link">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#contact-section" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- About Me -->
+
+    <section class="about-me" id="about-section">
+      <h1 class="about-me-title">About me</h1>
+      <h3 class="section-name">
+        Hello, I am <strong><h2>youness benaguida</h2></strong>
+      </h3>
+      <div class="about-father">
+        <div class="about">
+          <!-- <p>
+            Experienced IT professional with a proven track record in software
+            development, system administration, cybersecurity. Adept at solving
+            complex technical challenges and optimizing systems for peak
+            performance. With a keen eye for innovation and 4 years of hands-on
+            experience, bringing a dynamic approach to the ever-evolving IT
+            landscape. A collaborative team player and effective communicator,
+            BENAGUIDA is committed to delivering impactful solutions and staying
+            ahead in the rapidly advancing world of technology.
+          </p> -->
+          <p>
+            In the dynamic world of technology and design, BENAGUIDA emerges as a visionary developer and graphic designer, pushing the boundaries of creativity and innovation. Armed with a deep passion for both coding and aesthetics, he seamlessly blends technical expertise with a keen eye for design, creating digital masterpieces that captivate and inspire. As a future developer, he possesses a profound understanding of programming languages and cutting-edge technologies, ensuring the seamless functionality of the digital realm. Simultaneously, as a graphic designer, I craft visually stunning and compelling visuals, harmonizing form and function to communicate messages with unparalleled impact. With a commitment to lifelong learning and staying abreast of industry trends, he envisions and shapes a future where technology and design converge harmoniously to elevate user experiences and set new standards for digital excellence. As he continues to evolve in these dual roles, the world can expect groundbreaking contributions that redefine the landscape of development and design.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+
+    <section class="contact" id="contact-section">
+      <h1 class="contact-title">Leave a Message</h1>
+      <h4>For full list of contacts click here!</h4>
+      <div class="contact-box">
+        <fieldset>
+          <legend><h3>Send me a message</h3></legend>
+          <label for="Name">Full Name</label><br />
+          <input
+            type="text"
+            id="LastNameField"
+            name="LastName"
+            placeholder="Last Name"
+          /><br />
+          <label for="Email">Email</label><br />
+          <input
+            type="email"
+            id="EmailField"
+            name="Email"
+            placeholder="Email"
+          /><br /><br />
+          <label for="Comments">Your Message</label><br />
+          <textarea
+            name="Comments"
+            id="Comments"
+            cols="40"
+            rows="5"
+            placeholder="Comment"
+          ></textarea
+          ><br />
+          <button id="submit">Send ⤴</button>
+      </div>
+      <div class="back-top">
+        <button class="back-button">
+          <a class="back-button-a" href="#">&#11165;</a>
+        </button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    
+
+    <footer class="footer">
+      <h1 class="section__title section__title--work">Contact Me</h1>
+      <!-- <a href="mailto:benaguida1999@gmail.com" class="footer__link">
+        benaguida1999@gmail.com
+      </a> -->
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://www.linkedin.com.io">
+            <i class="fab fa-linkedin"> LinkedIn</i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://www.instagram.com">
+            <i class="fab fa-instagram"> Instagram</i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/benaguida-y">
+            <i class="fab fa-github"> Github</i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="mailto:benaguida1999@gmail.com">
+            <i class="fab fa-google"> Gmail</i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
